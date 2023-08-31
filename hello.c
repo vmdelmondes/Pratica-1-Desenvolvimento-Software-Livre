@@ -5,6 +5,13 @@ standard input = 0
 standard error = 2
 */
 
+/*
+Dúvidas:
+1) O hello.c tem inclued dos headers, mas em momento algum se faz referência ao MyFunctions.c e ao MyFcuntions2.c. Como o código sabe como executar as funções? Em qual momento acontece esse link?
+
+2) oq aconteceu com a makefile? o que é main, ALL e $@? O que é $(ALL)?
+*/
+
 #include <stdio.h>
 #include <math.h>
 #include "MyFunctions.h"
@@ -23,4 +30,6 @@ int main() {
 	return 0;
 
 }
+
+
 
