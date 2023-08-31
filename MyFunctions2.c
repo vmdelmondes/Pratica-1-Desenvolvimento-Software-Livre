@@ -1,6 +1,6 @@
 #include <math.h>
 
-double f1(double);
+#include "MyFunctions.h"
 
 double f2(double x){
 

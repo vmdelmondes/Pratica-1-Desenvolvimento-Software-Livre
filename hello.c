@@ -7,8 +7,8 @@ standard error = 2
 
 #include <stdio.h>
 #include <math.h>
-double f1(double);
-double f2 (double);
+#include "MyFunctions.h"
+#include "MyFunctions2.h"
 
 
 
